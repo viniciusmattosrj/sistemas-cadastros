@@ -57,6 +57,7 @@
 
                 <div class="input-fied col s12">
                     <input type="submit" value="cadastrar" class="btn blue">
+                    <input type="reset" value="limpar" class="btn red">
                 </div>
             </fieldset>   
         </form>
