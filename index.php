@@ -26,13 +26,41 @@
         </div>
     </nav>
 
+    <!-- Formulário de cadastro -->
+    <div class="row container">
+        <p>&nbsp;</p>
+        <form action="banco_de_dados/create.php" method="POST" class="col s12">
+            <fieldset class="formulario">
+                <legend><img src="images/avatar-2.png" alt="[imagem]" width="100"></legend>
+                <h5 class="light center">Cadastro de Clientes</h5>
 
-<!--
-    <form action="" method="">
-        <label for=""></label>
-        <input type="text" />
-    </form>
-    -->
+                <!-- Campo Nome-->
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>   
+                    <input type="text" name="nome" id="nome" maxlength="40" require autofocus>
+                    <label for="nome">Nome do Cliente</label>
+                </div>
+
+                <!-- Campo E-mail -->
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">email</i>   
+                    <input type="text" name="email" id="email" maxlength="50" require>
+                    <label for="email">E-mail do Cliente</label>
+                </div>
+
+                <!-- Campo Telefone -->
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">phone</i>   
+                    <input type="text" name="telefone" id="telefone" maxlength="15" require>
+                    <label for="telefone">Telefone do Cliente</label>
+                </div>
+
+                <div class="input-fied col s12">
+                    <input type="submit" value="cadastrar" class="btn blue">
+                </div>
+            </fieldset>   
+        </form>
+    </div>
 
     <!-- Arquivos Jquery Javascript -->
     <script type="text/Javascript" src="materialize/js/jquery-3.3.1.min.js"></script>
