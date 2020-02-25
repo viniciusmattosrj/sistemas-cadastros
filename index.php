@@ -29,9 +29,9 @@
     <!-- Formulário de cadastro -->
     <div class="row container">
         <p>&nbsp;</p>
-        <form action="banco_de_dados/create.php" method="POST" class="col s12">
+        <form action="database/create.php" method="POST" class="col s12">
             <fieldset class="formulario">
-                <legend><img src="images/avatar-2.png" alt="[imagem]" width="100"></legend>
+                <legend><img src="assets/images/avatar-2.png" alt="[imagem]" width="100"></legend>
                 <h5 class="light center">Cadastro de Clientes</h5>
 
                 <!-- Campo Nome-->
